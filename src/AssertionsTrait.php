@@ -2,7 +2,6 @@
 
 trait AssertionsTrait
 {
-
     /**
      * Assert that the client response has an OK status code.
      *
