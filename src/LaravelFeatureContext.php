@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\View\View;
 use Illuminate\Auth\UserInterface;
+use Symfony\Component\HttpKernel\Client;
 
 require_once "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php";
 
