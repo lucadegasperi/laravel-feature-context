@@ -307,7 +307,7 @@ abstract class LaravelFeatureContext extends BehatContext {
     /**
      * Define environment setup.
      *
-     * @param  Illuminate\Foundation\Application    $app
+     * @param  \Illuminate\Foundation\Application    $app
      * @return void
      */
     abstract protected function getEnvironmentSetUp($app);

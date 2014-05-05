@@ -25,7 +25,7 @@
             "LucaDegasperi\\LaravelFeatureContext\\": "src"
         },
         "files": [
-            "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+            "/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
         ]
     },
     "extra": {
