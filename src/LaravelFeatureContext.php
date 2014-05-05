@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\View\View;
 use Illuminate\Auth\UserInterface;
 
+require_once "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php";
+
 abstract class LaravelFeatureContext extends BehatContext {
 
     use AssertionsTrait;
