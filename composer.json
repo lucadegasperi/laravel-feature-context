@@ -1,0 +1,38 @@
+{
+    "name": "lucadegasperi/laravel-feature-context",
+    "description": "A Laravel 4 Feature Context for Behat",
+    "keywords": [
+        "laravel",
+        "behat",
+        "feature",
+        "bdd",
+        "testing"
+    ],
+    "authors": [
+        {
+            "name": "Luca Degasperi",
+            "email": "packages@lucadegasperi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "behat/behat": "v2.5.2",
+        "laravel/framework": "4.2.*",
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LucaDegasperi\\LaravelFeatureContext\\": "src"
+        },
+        "files": [
+            "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
